@@ -254,3 +254,16 @@ func TestOauth2DefaultClientID(t *testing.T) {
 	configFunc(&cfg)
 	assert.Equal(t, "", cfg.Oauth2DefaultClientID)
 }
+
+func TestSetDarkMode(t *testing.T) {
+	var cfg Config
+	assert.Equal(t, false, cfg.IsDarkMode)
+
+	configFunc := SetDarkMode(true)
+	configFunc(&cfg)
+	assert.Equal(t, true, cfg.IsDarkMode)
+
+	configFunc = SetDarkMode(false)
+	configFunc(&cfg)
+	assert.Equal(t, false, cfg.IsDarkMode)
+}
