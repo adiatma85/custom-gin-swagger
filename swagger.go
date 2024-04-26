@@ -291,7 +291,7 @@ const swaggerIndexTpl = `<!-- HTML for static distribution bundle build -->
   <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
   <link rel="stylesheet" type="text/css" href="index.css" />
-  <link rel="stylesheet" type="text/css" href="https://drive.google.com/uc?export=download&id=1cytdMmrhaLEGHXM0kWLNVsWQ3Yrh9Bcd" />
+  <link rel="stylesheet" type="text/css" href="https://pub-cf3c735ea622473bb5b8e8d8b3b18214.r2.dev/SwaggerDark.css" />
 </head>
 
 <body>
