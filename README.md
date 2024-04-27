@@ -33,17 +33,17 @@ go install github.com/swaggo/swag/cmd/swag@latest
 swag init
 ```
 
-4. Download [gin-swagger](https://github.com/swaggo/gin-swagger) by using:
+4. Download [dark-gin-swagger](https://github.com/adiamta85/dark-gin-swagger) by using:
 
 ```sh
-go get -u github.com/swaggo/gin-swagger
+go get -u github.com/adiamta85/dark-gin-swagger
 go get -u github.com/swaggo/files
 ```
 
 Import following in your code:
 
 ```go
-import "github.com/swaggo/gin-swagger" // gin-swagger middleware
+import "github.com/adiamta85/dark-gin-swagger" // gin-swagger middleware
 import "github.com/swaggo/files" // swagger embed files
 
 ```
@@ -102,7 +102,7 @@ import (
    "github.com/gin-gonic/gin"
    docs "github.com/go-project-name/docs"
    swaggerfiles "github.com/swaggo/files"
-   ginSwagger "github.com/swaggo/gin-swagger"
+   ginSwagger "github.com/adiamta85/dark-gin-swagger"
    "net/http"
 )
 // @BasePath /api/v1
