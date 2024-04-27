@@ -1,12 +1,12 @@
 package main
 
 import (
-	ginSwagger "github.com/adiatma85/custom-gin-swagger"
+	ginSwagger "github.com/adiatma85/dark-gin-swagger"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 
-	_ "github.com/adiatma85/custom-gin-swagger/example/basic/docs"
+	_ "github.com/adiatma85/dark-gin-swagger/example/basic/docs"
 )
 
 // @title Swagger Example API
