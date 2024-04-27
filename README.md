@@ -2,11 +2,11 @@
 
 gin middleware to automatically generate RESTful API documentation with Swagger 2.0.
 
-[![Build Status](https://github.com/swaggo/gin-swagger/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/features/actions)
-[![Codecov branch](https://img.shields.io/codecov/c/github/swaggo/gin-swagger/master.svg)](https://codecov.io/gh/swaggo/gin-swagger)
-[![Go Report Card](https://goreportcard.com/badge/github.com/swaggo/gin-swagger)](https://goreportcard.com/report/github.com/swaggo/gin-swagger)
-[![GoDoc](https://godoc.org/github.com/swaggo/gin-swagger?status.svg)](https://godoc.org/github.com/swaggo/gin-swagger)
-[![Release](https://img.shields.io/github/release/swaggo/gin-swagger.svg?style=flat-square)](https://github.com/swaggo/gin-swagger/releases)
+[![Build Status](https://github.com/adiatma85/dark-gin-swagger/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/features/actions)
+[![Codecov branch](https://img.shields.io/codecov/c/github/adiatma85/dark-gin-swagger/master.svg)](https://codecov.io/gh/adiatma85/dark-gin-swagger)
+[![Go Report Card](https://goreportcard.com/badge/github.com/adiatma85/dark-gin-swagger)](https://goreportcard.com/report/github.com/adiatma85/dark-gin-swagger)
+<!-- [![GoDoc](https://godoc.org/github.com/adiatma85/dark-gin-swagger?status.svg)](https://godoc.org/github.com/adiatma85/dark-gin-swagger)
+[![Release](https://img.shields.io/github/release/adiatma85/dark-gin-swagger.svg?style=flat-square)](https://github.com/adiatma85/dark-gin-swagger/releases) -->
 
 ## Usage
 
