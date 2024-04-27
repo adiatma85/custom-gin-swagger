@@ -24,23 +24,12 @@ jobs:
       
       - name: Run Go Test
         id: test
-        run: go test -cover -coverprofile=coverage.out -json > test-report.out
-      
-      - name: Make Test Report HTML
-        if: always()
-        run: |
-          go install github.com/vakenbolt/go-test-report@v0.9.3
-          go-test-report -o test-report.html < test-report.out
+        run: go test -race -cover -coverprofile=coverage.txt -covermode=atomic .
 
-      - name: Upload Test Report
-        if: always()
-        uses: actions/upload-artifact@v3
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
         with:
-          name: test-report
-          path: |
-            test-report.out
-            test-report.html
-          retention-days: 3
+          token: ${{ secrets.CODECOV_ORG_TOKEN }}
 
       - name: Discord notification
         if: ${{ github.run_number == github.run_total_count }}
