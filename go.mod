@@ -1,4 +1,4 @@
-module github.com/adiatma85/custom-gin-swagger
+module github.com/adiatma85/dark-gin-swagger
 
 go 1.17
 
